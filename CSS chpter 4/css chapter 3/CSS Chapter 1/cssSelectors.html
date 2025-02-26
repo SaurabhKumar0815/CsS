@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS selectors</title>
+    <style>
+        h1{
+            color: red;
+        }
+     div{
+        background-color: aquamarine;
+     }
+     #red,h3{                          /*h3 ko hum yaha , laga ke put karnge to h3 bhi same color ka ho jayega */
+        color: white;
+        background-color: red;
+     }
+     h2{
+        color: grey;
+     }
+     .blue{
+        color: yellow;
+        background-color: skyblue;
+        border: gray;
+     }
+     *{
+        margin: 0;          /*this is a margin and padding its use to 0 space in your website thats work margin and padding */
+        padding: 0;
+     }
+    </style>
+</head>
+<body>
+
+    <div>
+        <h1>This is my selectors page</h1>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro quis doloribus repellat illum, dignissimos et unde at accusantium praesentium ut, optio earum aliquam dicta illo repudiandae voluptatibus. Repudiandae, magnam voluptas?
+        </p>
+        <h2>This is a h2 color</h2>
+        <div id="red">bg is red</div>
+         <span class="blue">First Tag</span>
+         <span class="blue">Second Tag</span>
+         <span class="blue">Third Tag</span>
+         <h3>Its h3</h3>
+    </div>
+</body>
+</html>
